@@ -34,7 +34,7 @@ public class PlayerRespawn : MonoBehaviour
         if (deathText != null)
             deathText.SetActive(true);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
 
         
         rb.linearVelocity = Vector2.zero;
